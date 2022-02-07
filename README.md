@@ -6,8 +6,6 @@ The project is available at
 
 http://mattar-udagram.s3-website-us-east-1.amazonaws.com
 
-See additional documentation in the documentation folder.
-
 ## Configuration Screenshots
 
 ### Elastic Beanstalk Environment
@@ -24,29 +22,25 @@ See additional documentation in the documentation folder.
 
 ### CircleCI Pipeline
 
-![CircleCI Pipeline](./)
-
-![CircleCI Pipeline](./)
+![CircleCI Pipeline](./screenshots/screencapture-app-circleci-pipelines-github-Ahmed-Mattar-udacity-aws-21-workflows-a4d58140-8bc7-459b-86f1-ecb65a39d589-jobs-21-2022-02-07-21_31_07.png)
 
 added secrets here
 
 ![CircleCI Pipeline environment variables](./screenshots/screencapture-app-circleci-settings-project-github-Ahmed-Mattar-udacity-aws-environment-variables-2022-02-07-19_53_35.png)
 
-Schema
+## schema
 
-![Pipeline Schema](./)
+1- Prepare environment: setup Node,npm,aws,EBcli
+2- Install: Run npm install for both front-end and back-end
+3- Build: Run build for front-end and back-end
+4- Deploy: Deploy the front-end to s3 and the back-end to elasticbeanstalk
 
 ### Architecture
 
-![Architecture](./)
+![Architecture](./documentation/Diagram.drawio.png)
 
 ## Built With
 
 - [Angular](https://angular.io/) - Single Page Application Framework
 - [Node](https://nodejs.org) - Javascript Runtime
 - [Express](https://expressjs.com/) - Javascript API Framework
-
-## License
-
-t
-[License](LICENSE.txt)
