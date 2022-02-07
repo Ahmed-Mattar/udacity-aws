@@ -13,10 +13,28 @@ jobs:
     # Add steps to the job
     # See: https://circleci.com/docs/2.0/configuration-reference/#steps
     steps:
+      - node/install
       - checkout
+      - aws-cli/setup
+      - eb/setup
       - run:
-          name: "Say hello"
-          command: "echo Hello, World!"
+          name: "Front-End Install"
+          command: "npm run frontend:install"
+      - run:
+          name: "Back-End Install"
+          command: "npm run backend:install"
+      - run:
+          name: "Front-End Build"
+          command: "npm run frontend:build"
+      - run:
+          name: "Back-End Build"
+          command: "npm run backend:build"
+      - run:
+          name: "Deploy Back-End"
+          command: "npm run backend:deploy"
+      - run:
+          name: "Deploy Front-End"
+          command: "npm run frontend:deploy"
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
