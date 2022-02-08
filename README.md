@@ -8,6 +8,11 @@ http://mattar-udagram.s3-website-us-east-1.amazonaws.com
 
 ## Configuration Screenshots
 
+### proof the site is working and connected to the backend
+
+logged in with a made email
+![connected proof](./screenshots/connected.png)
+
 ### Elastic Beanstalk Environment
 
 ![Elastic Beanstalk Environment](./screenshots/screencapture-console-aws-amazon-elasticbeanstalk-home-2022-02-07-16_56_18.png)
