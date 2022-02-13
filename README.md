@@ -1,5 +1,6 @@
 # Udagram
 
+[![CircleCI](https://circleci.com/gh/Ahmed-Mattar/udacity-aws/tree/main.svg?style=shield)](https://circleci.com/gh/Ahmed-Mattar/udacity-aws/?branch=main)
 This project is part of the Udacity FullStack JavaScript nanodegree it's the last project and it's aim is to use aws services to host a full stack application.
 
 The project is available at
