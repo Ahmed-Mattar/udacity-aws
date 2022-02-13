@@ -36,10 +36,11 @@ added secrets here
 
 ## schema
 
-1- Prepare environment: setup Node,npm,aws,EBcli
-2- Install: Run npm install for both front-end and back-end
-3- Build: Run build for front-end and back-end
-4- Deploy: Deploy the front-end to s3 and the back-end to elasticbeanstalk
+1- Prepare environment: setup Node,npm,aws,EBcli  
+2- Install: Run npm install for both front-end and back-end  
+3- Build: Run build for front-end and back-end  
+4- Deploy: Deploy the front-end to s3 and the back-end to elasticbeanstalk  
+![overview of the pipeline](./screenshots/pipeline.jpg)
 
 ### Architecture
 
