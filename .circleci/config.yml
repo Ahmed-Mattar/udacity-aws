@@ -45,3 +45,7 @@ workflows:
   deploy-workflow:
     jobs:
       - deploy
+        filters:
+          branches:
+            only:                
+               - main
